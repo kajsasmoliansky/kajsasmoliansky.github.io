@@ -1,0 +1,19 @@
+---
+import { Image } from 'astro:assets';
+import BaseLayout from '../layouts/BaseLayout.astro';
+import { getEntry } from 'astro:content';
+import profileImage from '../content/pages/kajsa.jpg';
+
+const aboutContent = await getEntry('pages', 'about');
+const { Content } = await aboutContent.render();
+---
+
+<BaseLayout title="Om" description={aboutContent.data.description}>
+  <div class="page-intro">
+    <Image src={profileImage} alt="Kajsa Smoliansky" class="profile-image" width={200} height={200} />
+    <h1>Om</h1>
+  </div>
+  <div class="about-content">
+    <Content />
+  </div>
+</BaseLayout>

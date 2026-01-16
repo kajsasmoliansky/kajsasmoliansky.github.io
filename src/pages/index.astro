@@ -1,0 +1,58 @@
+---
+import { Image } from 'astro:assets';
+import BaseLayout from '../layouts/BaseLayout.astro';
+import { getCollection, getEntry } from 'astro:content';
+
+const homeContent = await getEntry('pages', 'home');
+const { Content } = await homeContent.render();
+
+const projects = await getCollection('projects');
+const latestProjects = projects
+  .sort((a, b) => b.data.date.getTime() - a.data.date.getTime())
+  .slice(0, 3);
+---
+
+<BaseLayout title="Hem">
+  <div class="page-intro">
+    <h1>Kajsa Smoliansky</h1>
+    <div class="lead">
+      <Content />
+    </div>
+  </div>
+
+  {latestProjects.length > 0 && (
+    <section class="mt-lg">
+      <h2 class="text-center mb-lg">Senaste projekt</h2>
+      <ul class="project-list">
+        {latestProjects.map((project) => {
+          const formattedDate = project.data.date.toLocaleDateString('sv-SE', {
+            year: 'numeric',
+            month: 'long',
+            day: 'numeric'
+          });
+          return (
+            <li class="project-card">
+              {project.data.image && (
+                <a href={`/projects/${project.slug}/`} class="project-card-image">
+                  <Image src={project.data.image} alt={project.data.title} width={600} />
+                </a>
+              )}
+              <p class="date">{formattedDate}</p>
+              <h2>
+                <a href={`/projects/${project.slug}/`}>
+                  {project.data.title}
+                </a>
+              </h2>
+              {project.data.description && (
+                <p class="description">{project.data.description}</p>
+              )}
+            </li>
+          );
+        })}
+      </ul>
+      <p class="text-center mt-lg">
+        <a href="/projects/">Visa alla projekt</a>
+      </p>
+    </section>
+  )}
+</BaseLayout>

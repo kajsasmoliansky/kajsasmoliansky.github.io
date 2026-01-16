@@ -1,0 +1,36 @@
+---
+import { Image } from 'astro:assets';
+import BaseLayout from './BaseLayout.astro';
+import type { CollectionEntry } from 'astro:content';
+
+interface Props {
+  project: CollectionEntry<'projects'>;
+}
+
+const { project } = Astro.props;
+const { title, description, date, image } = project.data;
+
+const formattedDate = date.toLocaleDateString('sv-SE', {
+  year: 'numeric',
+  month: 'long',
+  day: 'numeric'
+});
+---
+
+<BaseLayout title={title} description={description}>
+  <article>
+    <header class="project-header">
+      <p class="date">{formattedDate}</p>
+      <h1>{title}</h1>
+      {description && <p class="lead">{description}</p>}
+    </header>
+    {image && (
+      <div class="project-image">
+        <Image src={image} alt={title} />
+      </div>
+    )}
+    <div class="project-content">
+      <slot />
+    </div>
+  </article>
+</BaseLayout>
