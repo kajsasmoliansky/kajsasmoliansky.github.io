@@ -1,19 +1,25 @@
 {
-  "name": "kajsa-website",
-  "type": "module",
-  "version": "0.0.1",
-  "scripts": {
-    "dev": "astro dev",
-    "start": "astro dev",
-    "build": "astro check && astro build",
-    "preview": "astro preview",
-    "astro": "astro"
-  },
-  "dependencies": {
-    "@astrojs/check": "0.9.6",
-    "@astrojs/rss": "^4.0.15",
-    "astro": "^5.16.11",
-    "typescript": "^5.9.3"
-  },
-  "packageManager": "pnpm@10.28.0"
+	"name": "kajsa-website",
+	"version": "0.0.1",
+	"private": true,
+	"type": "module",
+	"scripts": {
+		"dev": "astro dev",
+		"start": "astro dev",
+		"build": "astro check && astro build",
+		"preview": "astro preview",
+		"astro": "astro",
+		"format": "prettier --write .",
+		"format:check": "prettier --check ."
+	},
+	"dependencies": {
+		"@astrojs/check": "0.9.6",
+		"@astrojs/rss": "^4.0.15",
+		"astro": "^5.16.11",
+		"typescript": "^5.9.3"
+	},
+	"devDependencies": {
+		"prettier": "^3.8.0"
+	},
+	"packageManager": "pnpm@10.28.0"
 }
