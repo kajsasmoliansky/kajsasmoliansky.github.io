@@ -1,38 +1,49 @@
 ---
 title: Om
-description: Om Kajsa Smoliansky - Traditionellt måleri och byggnadsvård i Mariestad
+description: Om Kajsa Smoliansky Kulturmåleri
 ---
 
 ## Om mig
 
-Jag har studerat kulturvård i fyra år, varav ett år med inriktning på kulturmåleri. Jag finns i Mariestad med omnejd och utför målerijobb som kräver specialistkompetens inom traditionella material och tekniker.
+Efter ett treårigt kandidatprogram på kulturvårdsinstitutionen med inriktning mot traditionella hantverksmetoder (bygghantverksprogrammet) läste jag Kulturmålere - traditionellt byggnadsmåleri. Nu utför jag hantverks- och konsultjobb, främst i Mariestad med omnejd men kan resa för kortare uppdrag. 
 
 ## Tjänster
 
 ### Traditionellt måleri och restaurering
 
-- Linoljefärg
+- Linoljefärg interiört och exteriört
+- Oljeförgyllning
 - Limfärg
-- Äggoljetempera
+- Slamfärg
+- Äggoljetempera och emulsionsfärg
+- Schablonmålning, stänkmålning
 - Pappspänning
+- Lerklining
+- Putslagningar
 - Tapetsering med lumppapp
 - Fönsterrenovering
 - Restaurering av äldre ytor
 
 ### Teknisk rådgivning
 
-Planerar du ett eget projekt i ett äldre hus? Jag erbjuder rådgivning där vi tillsammans går igenom:
+Planerar du ett eget projekt i ett äldre hus och är osäker på hur du ska gå tillväga? Jag erbjuder rådgivning där vi tillsammans går igenom ditt projekt och diskuterar aspekter som:
 
-- Vilket förarbete som behöver utföras
 - Vilka material och tekniker som passar just dina ytor
-- Antikvariska aspekter vid åtgärder i kulturhistoriskt värdefulla byggnader
-- Reversibla arbetssätt
+- Vilket förarbete som är lämpligt
 - Vad som vore tidstypiskt för ditt hus
+- Vad som finns eller funnits där tidigare och hur vi kan förhålla oss till det
+- Andra antikvariska aspekter som till exempel att spara tidslager och arbeta reversibelt
+
+Jag kan även hjälpa till med att praktiskt komma igång, planera inköp och ge tips inför arbetet.
+
+### Kurser
+
+Jag erbjuder kurser både för grupper och för dig som önskar hjälp med ditt hemmaprojekt men vill utföra merparten av arbetet själv.
 
 ## Kontakt
 
 Jag finns i Mariestad med omnejd. För förfrågningar och samarbeten, kontakta mig via e-post.
 
-**E-post:** [kajsa@example.com](mailto:kajsa@example.com)
+**E-post:** [kajsa.smoliansky@gmail.com](mailto:kajsa.smoliansky@gmail.com)
 
 **Instagram:** [@smoliansky](https://www.instagram.com/smoliansky/)
