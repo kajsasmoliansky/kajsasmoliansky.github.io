@@ -10,9 +10,9 @@
     "astro": "astro"
   },
   "dependencies": {
-    "@astrojs/check": "^0.9.4",
+    "@astrojs/check": "0.9.6",
     "@astrojs/rss": "^4.0.15",
-    "astro": "^4.16.18",
+    "astro": "^5.16.11",
     "typescript": "^5.7.2"
   },
   "packageManager": "pnpm@10.28.0"

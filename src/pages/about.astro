@@ -1,9 +1,12 @@
 ---
 import BaseLayout from '../layouts/BaseLayout.astro';
-import { getEntry } from 'astro:content';
+import { getEntry, render } from 'astro:content';
 
 const aboutContent = await getEntry('pages', 'about');
-const { Content } = await aboutContent.render();
+if (!aboutContent) {
+  throw new Error('about page not found');
+}
+const { Content } = await render(aboutContent);
 ---
 
 <BaseLayout title="Om" description={aboutContent.data.description}>

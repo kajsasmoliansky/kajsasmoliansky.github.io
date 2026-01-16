@@ -1,10 +1,13 @@
 ---
 import { Image } from 'astro:assets';
 import BaseLayout from '../layouts/BaseLayout.astro';
-import { getCollection, getEntry } from 'astro:content';
+import { getCollection, getEntry, render } from 'astro:content';
 
 const homeContent = await getEntry('pages', 'home');
-const { Content } = await homeContent.render();
+if (!homeContent){
+  throw new Error('home page not found');
+}
+const { Content } = await render(homeContent);
 
 const projects = await getCollection('projects');
 const latestProjects = projects
