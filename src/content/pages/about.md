@@ -35,6 +35,7 @@ Planerar du ett eget projekt i ett äldre hus och är osäker på hur du ska gå
 - Andra antikvariska aspekter som till exempel att spara tidslager och arbeta reversibelt
 
 
+
 Jag kan även hjälpa dig att praktiskt komma igång, planera inköp och ge tips inför arbetet.
 
 ### Kurser
