@@ -8,3 +8,13 @@ image: ./placeholder-600x400.jpg
 ## Rubrik
 
 text text text...
+
+![another image](./placeholder-600x400.jpg)
+
+![another image 2](./placeholder-600x400.jpg)
+
+more text...
+
+![another image 2](./placeholder-600x400.jpg)
+
+more text again...
