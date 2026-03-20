@@ -14,11 +14,7 @@ export async function GET(context: APIContext) {
 		home_page_url: site,
 		feed_url: `${site}feed.json`,
 		language: SITE.lang,
-		authors: [
-			{
-				name: SITE.authorName,
-			},
-		],
+		authors: [{ name: SITE.authorName }],
 		items: sortedProjects.map((project) => ({
 			id: `${site}projects/${project.slug}/`,
 			url: `${site}projects/${project.slug}/`,
