@@ -2,7 +2,7 @@
 title: Pappspänning, måleri och tapetsering
 description: Pappspänning, måleri och tapetsering av väggar
 date: 2025-12-10
-image: ../../assets/mortfors1.jpeg
+image: ../../assets/mortfors2.jpeg
 ---
 
 ## Rubrik
