@@ -1,8 +1,8 @@
 ---
-title: Exempel projekt
-description: Inte ett riktigt projekt. Kom tillbaka snart.
-date: 2026-01-16
-image: ../../assets/placeholder-600x400.jpg
+title: Pappspänning, måleri och tapetsering
+description: Pappspänning, måleri och tapetsering av väggar
+date: 2025-12-10
+image: ../../assets/mortfors1.jpeg
 ---
 
 ## Rubrik
