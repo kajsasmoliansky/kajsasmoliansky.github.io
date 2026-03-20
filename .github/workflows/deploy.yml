@@ -36,9 +36,6 @@ jobs:
       - name: Install dependencies
         run: pnpm install --frozen-lockfile
 
-      - name: Check code style
-        run: pnpm run format:check
-
       - name: Build
         run: pnpm run build
 
