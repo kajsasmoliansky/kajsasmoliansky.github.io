@@ -13,7 +13,7 @@ export async function GET(context: APIContext) {
 		description: SITE.feedDescription,
 		home_page_url: site,
 		feed_url: `${site}feed.json`,
-		language: "sv",
+		language: SITE.lang,
 		authors: [
 			{
 				name: SITE.authorName,
