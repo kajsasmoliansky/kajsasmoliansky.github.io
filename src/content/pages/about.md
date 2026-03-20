@@ -5,7 +5,7 @@ description: Om Kajsa Smoliansky Kulturmåleri
 
 ## Om mig
 
-Efter ett treårigt kandidatprogram på kulturvårdsinstitutionen med inriktning mot traditionella hantverksmetoder (bygghantverksprogrammet) läste jag Kulturmålare - traditionellt byggnadsmåleri. Nu utför jag hantverksjobb och erbjuder rådgivning, främst i Mariestad med omnejd men reser gärna. Parallelt med hantverksuppdragen arbetar jag även just nu med ett eget projekt där jag utforskar marmorering och olika enkla färgtyper, ett projekt som ska leda till att jag tar fram nytt kursmaterial till nybörjarkurser.
+Efter ett treårigt kandidatprogram på kulturvårdsinstitutionen med inriktning mot traditionella hantverksmetoder (bygghantverksprogrammet) läste jag Kulturmålare - traditionellt byggnadsmåleri. Nu utför jag hantverksjobb och erbjuder rådgivning, främst i Mariestad med omnejd men reser gärna. Parallelt med hantverksuppdragen arbetar jag just nu med ett projekt där jag utforskar marmorering och olika hemgjorda färger, ett projekt som ska leda till att jag tar fram nytt kursmaterial till nybörjarkurser.
 
 ![bild på Kajsa som målar äggoljetempera](../../assets/kajsaisnickeriet.jpg)
 
@@ -53,12 +53,14 @@ Jag kan även hjälpa dig att praktiskt komma igång med ditt egna projekt, plan
 
 ### Kurser och workshops
 
-Jag erbjuder kurser både för grupper och för dig som önskar hjälp med ditt hemmaprojekt men vill utföra merparten av arbetet själv.
+Jag erbjuder kurser både för grupper och för dig som önskar hjälp med ditt hemmaprojekt men vill utföra merparten av arbetet själv. Det kan till exempel handla om att göra egen äggoljetempera, limfärg och/eller schabloner eller kanske en kurs i att pappspänna. Jag arbetar även på att ta fram kursmaterial till kortkurser i marmorering.
 
 ## Kontakt
 
-Jag finns i Mariestad med omnejd. För förfrågningar och samarbeten, kontakta mig via e-post.
+Jag finns i Mariestad med omnejd. För förfrågningar och samarbeten, kontakta mig via e-post eller telefon.
 
 **E-post:** [kajsa.smoliansky@gmail.com](mailto:kajsa.smoliansky@gmail.com)
+
+**Telefon:** +46 76-778 37 07
 
 **Instagram:** [@smoliansky](https://www.instagram.com/smoliansky/)
