@@ -5,17 +5,22 @@ description: Om Kajsa Smoliansky Kulturmåleri
 
 ## Om mig
 
-Efter ett treårigt kandidatprogram på kulturvårdsinstitutionen med inriktning mot traditionella hantverksmetoder (bygghantverksprogrammet) läste jag Kulturmålare - traditionellt byggnadsmåleri. Nu utför jag hantverksjobb och erbjuder rådgivning, främst i Mariestad med omnejd men reser gärna. Parallelt med hantverksuppdragen arbetar jag även just nu med ett eget projekt där jag utforskar marmorering och olika enkla färgtyper, ett projekt som ska leda till att jag tar fram nytt kursmaterial till nybörjarkurser. Jag älskar att diskutera projekt och ge rådgivning utifrån min kompetens, det är något jag verkligen önskar ägna mig mer åt och utvecklas i så under 2026 kommer jag att erbjuda rabatt på den typen av tjänst.
+Efter ett treårigt kandidatprogram på kulturvårdsinstitutionen med inriktning mot traditionella hantverksmetoder (bygghantverksprogrammet) läste jag Kulturmålare - traditionellt byggnadsmåleri. Nu utför jag hantverksjobb och erbjuder rådgivning, främst i Mariestad med omnejd men reser gärna. Parallelt med hantverksuppdragen arbetar jag även just nu med ett eget projekt där jag utforskar marmorering och olika enkla färgtyper, ett projekt som ska leda till att jag tar fram nytt kursmaterial till nybörjarkurser. 
 
 ![bild på Kajsa som målar äggoljetempera](../../assets/kajsaisnickeriet.jpg)
 
 ## Tjänster
 
-### Traditionellt måleri och restaurering
-
 Sedan examen har jag främst arbetat med pappspänning, lumppapp, limfärg, äggoljetempera, interiört linoljefärgsmåleri, lerklining, rödfärgsmålning, rådgivning och restaurering av äldre ytskikt, men mina intressen är många. Kontakta mig gärna angående arbeten som exempelvis:
 
-- Rådgivning kring både ytskikt och andra aspekter av äldre hus, om det sträcker sig utanför min kompetens har jag kontakt med många olika restaureringshantverkare som tillsammans har ett otroligt brett spann av kompetenser
+### Teknisk rådgivning på plats eller digitalt
+
+Rådgivning kring både ytskikt och andra aspekter av äldre hus, om det sträcker sig utanför min kompetens har jag kontakt med många olika restaureringshantverkare som tillsammans har ett otroligt brett spann av kompetenser. Jag älskar att diskutera projekt och ge rådgivning utifrån min kompetens, det är något jag verkligen önskar ägna mig mer åt och utvecklas i så under 2026 kommer jag att erbjuda rabatt på den typen av tjänst.
+
+Jag har även en idé om att prova digital rådgivning till ett ännu mer rabatterat pris så tveka inte att höra av dig även om du bor långt från Mariestad.
+
+### Traditionellt måleri och restaurering
+
 - Restaurering av äldre ytskikt, t.ex. fläckar efter vattenskador eller skador på träådringar och liknande
 - Olika typer av limfärg
 - Äggoljetempera och emulsionsfärg
@@ -31,14 +36,13 @@ Sedan examen har jag främst arbetat med pappspänning, lumppapp, limfärg, ägg
 - Linoljefärgsmåleri interiört och exteriört
 - Fönsterrenovering
 
-  Jag har även en idé om att prova att erbjuda digial rådgivning till rabatterat pris, så tveka inte att kontakta mig även om du bor långt från Mariestad.
+### Rådgivning och stöd i eget projekt
 
-### Teknisk rådgivning på plats eller digitalt
-
-Planerar du ett eget projekt i ett äldre hus och är osäker på hur du ska gå tillväga? Jag erbjuder rådgivning där vi tillsammans går igenom ditt projekt och diskuterar aspekter som:
+Planerar du ett eget projekt i ett äldre hus och är osäker på hur du ska gå tillväga? Presentera det för mig så går vi tillsammans igenom ditt projekt och diskuterar aspekter som:
 
 - Vilka material och tekniker som kan passa just dina ytor
 - Vilket förarbete som kan vara lämpligt
+- En lämplig ordning för olika arbeten
 - Vad som vore tidstypiskt för ditt hus, främst rent tekniskt men även färgsättning och andra stilmässiga aspekter
 - Vad som finns eller funnits där tidigare och hur vi kan förhålla oss till det
 - Andra antikvariska aspekter som till exempel att spara tidslager och arbeta reversibelt
