@@ -5,7 +5,7 @@ description: Om Kajsa Smoliansky Kulturmåleri
 
 ## Om mig
 
-Efter ett treårigt kandidatprogram på kulturvårdsinstitutionen med inriktning mot traditionella hantverksmetoder (bygghantverksprogrammet) läste jag Kulturmålere - traditionellt byggnadsmåleri. Nu utför jag hantverksjobb och erbjuder rådgivning, främst i Mariestad med omnejd men reser gärna. Parallelt med hantverksuppdragen arbetar jag även just nu med ett eget projekt där jag utforskar marmorering och olika enkla färgtyper, ett projekt som ska leda till att jag tar fram nytt kursmaterial till nybörjarkurser. Jag älskar att diskutera projekt och ge rådgivning utifrån min kompetens, det är något jag verkligen önskar ägna mig mer åt och utvecklas i så under 2026 kommer jag att erbjuda rabatt på den typen av tjänst.
+Efter ett treårigt kandidatprogram på kulturvårdsinstitutionen med inriktning mot traditionella hantverksmetoder (bygghantverksprogrammet) läste jag Kulturmålare - traditionellt byggnadsmåleri. Nu utför jag hantverksjobb och erbjuder rådgivning, främst i Mariestad med omnejd men reser gärna. Parallelt med hantverksuppdragen arbetar jag även just nu med ett eget projekt där jag utforskar marmorering och olika enkla färgtyper, ett projekt som ska leda till att jag tar fram nytt kursmaterial till nybörjarkurser. Jag älskar att diskutera projekt och ge rådgivning utifrån min kompetens, det är något jag verkligen önskar ägna mig mer åt och utvecklas i så under 2026 kommer jag att erbjuda rabatt på den typen av tjänst.
 
 ![bild på Kajsa som målar äggoljetempera](../../assets/kajsaisnickeriet.jpg)
 
