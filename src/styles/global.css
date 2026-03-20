@@ -1,63 +1,60 @@
 /* ==========================================================================
-   KAJSA SMOLIANSKY — Nordic Atelier
+   KAJSA SMOLIANSKY — Quiet Craft
    ========================================================================== */
 
-/* CSS Custom Properties */
 :root {
-	/* Typography */
-	--font-display: 'Cormorant Garamond', Georgia, serif;
-	--font-serif: Georgia, 'Times New Roman', serif;
-	--font-sans: 'Jost', 'Segoe UI', sans-serif;
+	/* Typography — one family, all weights */
+	--font-main: 'EB Garamond', Georgia, serif;
 
 	/* Spacing */
 	--space-xs: 0.5rem;
 	--space-sm: 1rem;
-	--space-md: 1.5rem;
-	--space-lg: 2.5rem;
-	--space-xl: 4rem;
+	--space-md: 1.625rem;
+	--space-lg: 2.75rem;
+	--space-xl: 4.5rem;
 
 	/* Layout */
-	--content-width: 52rem;
-	--content-width-wide: 72rem;
-	--prose-width: 42rem;
+	--content-width: 50rem;
+	--content-width-wide: 70rem;
+	--prose-width: 40rem;
 
-	/* Transitions */
-	--transition-fast: 150ms ease;
-	--transition-normal: 300ms ease;
+	/* Transitions — gentle, unhurried */
+	--transition-fast: 200ms ease;
+	--transition-normal: 400ms ease;
 
-	/* Light mode */
-	--color-bg: #f2ead8;
-	--color-bg-secondary: #e8dece;
-	--color-text: #1e1a15;
-	--color-text-muted: #5c5248;
-	--color-text-subtle: #9c9082;
-	--color-accent: #7a3226;
-	--color-accent-hover: #9e4236;
-	--color-border: #cfc4b0;
+	/* Light mode — warm cream and old ink */
+	--color-bg: #f3ede0;
+	--color-bg-secondary: #ece6d3;
+	--color-text: #241c13;
+	--color-text-muted: #5d5040;
+	--color-text-subtle: #a09070;
+	--color-accent: #6a7c59;
+	--color-accent-hover: #536246;
+	--color-border: #d2c9b5;
 }
 
 /* Dark mode */
 .theme-dark {
-	--color-bg: #181512;
-	--color-bg-secondary: #201c18;
-	--color-text: #f0e8da;
-	--color-text-muted: #b0a898;
-	--color-text-subtle: #70685e;
-	--color-accent: #c4614e;
-	--color-accent-hover: #d4725e;
-	--color-border: #2c2824;
+	--color-bg: #1a1710;
+	--color-bg-secondary: #211e14;
+	--color-text: #f2e8d5;
+	--color-text-muted: #b0a588;
+	--color-text-subtle: #746a56;
+	--color-accent: #8fa07a;
+	--color-accent-hover: #a0b48a;
+	--color-border: #2d2a1e;
 }
 
 @media (prefers-color-scheme: dark) {
 	.theme-auto {
-		--color-bg: #181512;
-		--color-bg-secondary: #201c18;
-		--color-text: #f0e8da;
-		--color-text-muted: #b0a898;
-		--color-text-subtle: #70685e;
-		--color-accent: #c4614e;
-		--color-accent-hover: #d4725e;
-		--color-border: #2c2824;
+		--color-bg: #1a1710;
+		--color-bg-secondary: #211e14;
+		--color-text: #f2e8d5;
+		--color-text-muted: #b0a588;
+		--color-text-subtle: #746a56;
+		--color-accent: #8fa07a;
+		--color-accent-hover: #a0b48a;
+		--color-border: #2d2a1e;
 	}
 }
 
@@ -70,17 +67,15 @@
 	padding: 0;
 }
 
-/* Base */
 html {
-	font-size: 16px;
+	font-size: 19px;
 	scroll-behavior: smooth;
 }
 
 body {
-	font-family: var(--font-sans);
+	font-family: var(--font-main);
 	font-size: 1rem;
-	font-weight: 300;
-	line-height: 1.75;
+	line-height: 1.85;
 	color: var(--color-text);
 	background-color: var(--color-bg);
 	min-height: 100vh;
@@ -88,46 +83,39 @@ body {
 	flex-direction: column;
 }
 
-/* Subtle grain texture overlay */
+/* Faint paper grain — almost subliminal */
 body::after {
 	content: '';
 	position: fixed;
-	top: 0;
-	left: 0;
-	width: 100%;
-	height: 100%;
-	background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='300' height='300'%3E%3Cfilter id='n'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.75' numOctaves='4' stitchTiles='stitch'/%3E%3C/filter%3E%3Crect width='300' height='300' filter='url(%23n)' opacity='0.4'/%3E%3C/svg%3E");
-	opacity: 0.025;
+	inset: 0;
+	background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='250' height='250'%3E%3Cfilter id='g'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.65' numOctaves='4' stitchTiles='stitch'/%3E%3C/filter%3E%3Crect width='250' height='250' filter='url(%23g)' opacity='0.45'/%3E%3C/svg%3E");
+	opacity: 0.018;
 	pointer-events: none;
 	z-index: 9999;
 }
 
 /* Typography */
-h1,
-h2,
-h3,
-h4,
-h5,
-h6 {
-	font-family: var(--font-display);
+h1, h2, h3, h4, h5, h6 {
+	font-family: var(--font-main);
 	font-weight: 400;
-	line-height: 1.2;
+	line-height: 1.25;
 	color: var(--color-text);
 }
 
 h1 {
-	font-size: 3rem;
-	letter-spacing: -0.01em;
+	font-size: 2.4rem;
+	font-style: italic;
+	letter-spacing: 0.01em;
 	margin-bottom: var(--space-md);
 }
 
 h2 {
-	font-size: 2rem;
+	font-size: 1.7rem;
 	margin-bottom: var(--space-sm);
 }
 
 h3 {
-	font-size: 1.5rem;
+	font-size: 1.3rem;
 	margin-bottom: var(--space-sm);
 }
 
@@ -177,35 +165,47 @@ img {
 }
 
 .site-title {
-	font-family: var(--font-display);
-	font-size: 1.6rem;
+	font-family: var(--font-main);
+	font-size: 1.5rem;
 	font-weight: 400;
-	letter-spacing: 0.03em;
+	font-style: italic;
+	letter-spacing: 0.015em;
 	flex-shrink: 0;
 }
 
 .site-title a {
 	color: var(--color-text);
+	transition: color var(--transition-fast);
 }
 
 .site-title a:hover {
 	color: var(--color-accent);
 }
 
-/* Navigation */
+/* Navigation — lowercase, personal, with dot separators */
 .site-nav ul {
 	list-style: none;
 	display: flex;
 	align-items: center;
-	gap: var(--space-lg);
+}
+
+.site-nav li {
+	display: flex;
+	align-items: center;
+}
+
+.site-nav li + li::before {
+	content: '·';
+	color: var(--color-text-subtle);
+	margin: 0 0.65rem;
+	font-size: 1rem;
 }
 
 .site-nav a {
-	font-family: var(--font-sans);
+	font-family: var(--font-main);
+	font-size: 0.9rem;
 	font-weight: 400;
-	font-size: 0.72rem;
-	letter-spacing: 0.14em;
-	text-transform: uppercase;
+	letter-spacing: 0.02em;
 	color: var(--color-text-muted);
 	transition: color var(--transition-fast);
 }
@@ -226,8 +226,7 @@ main {
 	padding: var(--space-lg) 0;
 	border-top: 1px solid var(--color-border);
 	color: var(--color-text-subtle);
-	font-size: 0.8rem;
-	letter-spacing: 0.04em;
+	font-size: 0.88rem;
 }
 
 .footer-inner {
@@ -248,21 +247,17 @@ main {
 	padding: 2px;
 	background: var(--color-bg-secondary);
 	border-radius: 3px;
-	font-size: 0.72rem;
 }
 
 .theme-toggle button {
-	padding: 0.25rem 0.6rem;
+	padding: 0.2rem 0.55rem;
 	border: none;
 	background: transparent;
 	color: var(--color-text-subtle);
 	cursor: pointer;
 	border-radius: 2px;
-	letter-spacing: 0.08em;
-	text-transform: uppercase;
-	font-size: 0.68rem;
-	font-family: var(--font-sans);
-	font-weight: 400;
+	font-size: 0.78rem;
+	font-family: var(--font-main);
 	transition: all var(--transition-fast);
 }
 
@@ -281,20 +276,21 @@ main {
 }
 
 .page-intro h1 {
-	font-size: 3.5rem;
-	font-weight: 300;
-	letter-spacing: -0.02em;
+	font-size: 2.75rem;
+	font-weight: 400;
+	font-style: italic;
+	letter-spacing: 0.01em;
 	margin-bottom: var(--space-sm);
 }
 
 .page-intro .lead {
-	font-size: 1rem;
-	line-height: 1.8;
+	font-size: 1.05rem;
+	line-height: 1.85;
 	color: var(--color-text-muted);
 	max-width: var(--prose-width);
 }
 
-/* Project List */
+/* Project List — journal entries, not portfolio cards */
 .project-list {
 	list-style: none;
 	display: flex;
@@ -311,8 +307,9 @@ main {
 }
 
 .project-card h2 {
-	font-size: 1.75rem;
+	font-size: 1.6rem;
 	font-weight: 400;
+	font-style: italic;
 	letter-spacing: 0.01em;
 	margin-bottom: var(--space-xs);
 }
@@ -326,20 +323,20 @@ main {
 	color: var(--color-accent);
 }
 
+/* Date in genuine small-caps — EB Garamond's small-caps are beautiful */
 .project-card .date {
-	font-family: var(--font-sans);
-	font-size: 0.72rem;
-	font-weight: 400;
-	letter-spacing: 0.12em;
-	text-transform: uppercase;
+	font-size: 0.82rem;
+	font-variant: small-caps;
+	font-variant-numeric: oldstyle-nums;
+	letter-spacing: 0.06em;
 	color: var(--color-text-subtle);
 	margin-bottom: var(--space-xs);
 }
 
 .project-card .description {
 	color: var(--color-text-muted);
-	font-size: 0.95rem;
-	line-height: 1.7;
+	font-size: 1rem;
+	line-height: 1.8;
 }
 
 .project-card-image {
@@ -350,11 +347,11 @@ main {
 
 .project-card-image img {
 	width: 100%;
-	transition: transform var(--transition-normal);
+	transition: opacity var(--transition-normal);
 }
 
 .project-card:hover .project-card-image img {
-	transform: scale(1.02);
+	opacity: 0.92;
 }
 
 /* Project Detail */
@@ -363,11 +360,10 @@ main {
 }
 
 .project-header .date {
-	font-family: var(--font-sans);
-	font-size: 0.72rem;
-	font-weight: 400;
-	letter-spacing: 0.14em;
-	text-transform: uppercase;
+	font-size: 0.82rem;
+	font-variant: small-caps;
+	font-variant-numeric: oldstyle-nums;
+	letter-spacing: 0.06em;
 	color: var(--color-text-subtle);
 	margin-bottom: var(--space-sm);
 }
@@ -382,17 +378,19 @@ main {
 
 .project-content {
 	max-width: var(--prose-width);
-	line-height: 1.85;
+	line-height: 1.9;
 }
 
 .project-content h2 {
 	margin-top: var(--space-lg);
-	font-size: 1.75rem;
+	font-size: 1.6rem;
+	font-style: italic;
+	font-weight: 400;
 }
 
 .project-content h3 {
 	margin-top: var(--space-md);
-	font-size: 1.35rem;
+	font-size: 1.25rem;
 }
 
 .project-content ul,
@@ -412,19 +410,21 @@ main {
 /* About Page */
 .about-content {
 	max-width: var(--prose-width);
-	line-height: 1.85;
+	line-height: 1.9;
 }
 
 .about-content h2 {
 	margin-top: var(--space-lg);
 	margin-bottom: var(--space-sm);
-	font-size: 1.75rem;
+	font-size: 1.6rem;
+	font-style: italic;
+	font-weight: 400;
 }
 
 .about-content h3 {
 	margin-top: var(--space-md);
 	margin-bottom: var(--space-sm);
-	font-size: 1.35rem;
+	font-size: 1.2rem;
 }
 
 .about-content img {
@@ -435,19 +435,21 @@ main {
 .contact-info {
 	margin-top: var(--space-lg);
 	padding: var(--space-md) var(--space-lg);
-	border-left: 2px solid var(--color-accent);
+	border-left: 1px solid var(--color-accent);
 	background: var(--color-bg-secondary);
 }
 
 .contact-info h2 {
 	margin-top: 0;
-	font-size: 1.35rem;
+	font-size: 1.3rem;
+	font-style: italic;
 }
 
 /* Empty State */
 .empty-state {
 	padding: var(--space-xl) 0;
 	color: var(--color-text-subtle);
+	font-style: italic;
 }
 
 /* Utilities */
@@ -466,7 +468,7 @@ main {
 /* Responsive */
 @media (max-width: 640px) {
 	html {
-		font-size: 15px;
+		font-size: 17px;
 	}
 
 	.container {
@@ -477,10 +479,6 @@ main {
 		flex-direction: column;
 		align-items: flex-start;
 		gap: var(--space-xs);
-	}
-
-	.site-nav ul {
-		gap: var(--space-md);
 	}
 
 	.footer-inner {
@@ -494,6 +492,6 @@ main {
 	}
 
 	.page-intro h1 {
-		font-size: 2.5rem;
+		font-size: 2rem;
 	}
 }
