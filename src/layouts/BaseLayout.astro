@@ -29,6 +29,9 @@ function isActive(path: string): boolean {
         document.documentElement.className = 'theme-' + theme;
       })();
     </script>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,600;1,400;1,600&family=Jost:wght@300;400&display=swap" />
     <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
     <link rel="alternate" type="application/rss+xml" title="Kajsa Smoliansky (RSS)" href="/feed.xml" />
     <link rel="alternate" type="application/atom+xml" title="Kajsa Smoliansky (Atom)" href="/atom.xml" />
@@ -37,29 +40,31 @@ function isActive(path: string): boolean {
   </head>
   <body>
     <header class="site-header">
-      <div class="container">
-        <div class="site-title">
-          <a href="/">Kajsa Smoliansky</a>
+      <div class="container container--wide">
+        <div class="header-inner">
+          <div class="site-title">
+            <a href="/">Kajsa Smoliansky</a>
+          </div>
+          <nav class="site-nav">
+            <ul>
+              <li>
+                <a href="/" class:list={[{ active: isActive('/') }]}>
+                  Hem
+                </a>
+              </li>
+              <li>
+                <a href="/projects/" class:list={[{ active: isActive('/projects') }]}>
+                  Projekt
+                </a>
+              </li>
+              <li>
+                <a href="/about/" class:list={[{ active: isActive('/about') }]}>
+                  Om
+                </a>
+              </li>
+            </ul>
+          </nav>
         </div>
-        <nav class="site-nav">
-          <ul>
-            <li>
-              <a href="/" class:list={[{ active: isActive('/') }]}>
-                Hem
-              </a>
-            </li>
-            <li>
-              <a href="/projects/" class:list={[{ active: isActive('/projects') }]}>
-                Projekt
-              </a>
-            </li>
-            <li>
-              <a href="/about/" class:list={[{ active: isActive('/about') }]}>
-                Om
-              </a>
-            </li>
-          </ul>
-        </nav>
       </div>
     </header>
 
@@ -70,12 +75,14 @@ function isActive(path: string): boolean {
     </main>
 
     <footer class="site-footer">
-      <div class="container">
-        <p>&copy; {new Date().getFullYear()} Kajsa Smoliansky</p>
-        <div class="theme-toggle">
-          <button type="button" data-theme="light">Ljust</button>
-          <button type="button" data-theme="auto">Auto</button>
-          <button type="button" data-theme="dark">Mörkt</button>
+      <div class="container container--wide">
+        <div class="footer-inner">
+          <p>&copy; {new Date().getFullYear()} Kajsa Smoliansky</p>
+          <div class="theme-toggle">
+            <button type="button" data-theme="light">Ljust</button>
+            <button type="button" data-theme="auto">Auto</button>
+            <button type="button" data-theme="dark">Mörkt</button>
+          </div>
         </div>
       </div>
     </footer>
