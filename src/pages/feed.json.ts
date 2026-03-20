@@ -16,7 +16,7 @@ export async function GET(context: APIContext) {
 		language: "sv",
 		authors: [
 			{
-				name: "Kajsa Smoliansky",
+				name: "Kajsa Smoliansky Kulturmåleri",
 			},
 		],
 		items: sortedProjects.map((project) => ({
