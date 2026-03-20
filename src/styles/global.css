@@ -211,6 +211,7 @@ img {
 	font-size: 0.9rem;
 	font-weight: 400;
 	letter-spacing: 0.02em;
+	text-transform: lowercase;
 	color: var(--color-text-muted);
 	transition: color var(--transition-fast);
 }
