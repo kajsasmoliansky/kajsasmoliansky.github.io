@@ -1,5 +1,6 @@
 import { getCollection } from "astro:content";
 import type { APIContext } from "astro";
+import { SITE } from "../consts";
 
 export async function GET(context: APIContext) {
 	const projects = await getCollection("projects");
@@ -8,15 +9,14 @@ export async function GET(context: APIContext) {
 
 	const feed = {
 		version: "https://jsonfeed.org/version/1.1",
-		title: "Kajsa Smoliansky Kulturmåleri",
-		description:
-			"Projekt och uppdateringar från Kajsa Smolianskys arbete med traditionellt måleri och byggnadsvård",
+		title: SITE.siteTitle,
+		description: SITE.feedDescription,
 		home_page_url: site,
 		feed_url: `${site}feed.json`,
 		language: "sv",
 		authors: [
 			{
-				name: "Kajsa Smoliansky Kulturmåleri",
+				name: SITE.authorName,
 			},
 		],
 		items: sortedProjects.map((project) => ({

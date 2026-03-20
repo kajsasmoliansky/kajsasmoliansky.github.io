@@ -1,5 +1,6 @@
 import { getCollection } from "astro:content";
 import type { APIContext } from "astro";
+import { SITE } from "../consts";
 
 export async function GET(context: APIContext) {
 	const projects = await getCollection("projects");
@@ -8,14 +9,14 @@ export async function GET(context: APIContext) {
 
 	const atom = `<?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
-  <title>Kajsa Smoliansky</title>
-  <subtitle>Projekt och uppdateringar från Kajsa Smolianskys arbete med traditionellt måleri och byggnadsvård</subtitle>
+  <title>${SITE.siteTitle}</title>
+  <subtitle>${SITE.feedDescription}</subtitle>
   <link href="${site}atom.xml" rel="self" type="application/atom+xml"/>
   <link href="${site}" rel="alternate" type="text/html"/>
   <id>${site}</id>
   <updated>${sortedProjects[0]?.data.date.toISOString() ?? new Date().toISOString()}</updated>
   <author>
-    <name>Kajsa Smoliansky</name>
+    <name>${SITE.authorName}</name>
   </author>
 ${sortedProjects
 	.map(
