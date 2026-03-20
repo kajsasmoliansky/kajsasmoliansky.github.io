@@ -1,58 +1,60 @@
-/* CSS Custom Properties */
+/* ==========================================================================
+   KAJSA SMOLIANSKY — Quiet Craft
+   ========================================================================== */
+
 :root {
-	/* Typography */
-	--font-serif: "Georgia", "Times New Roman", serif;
-	--font-sans: "Segoe UI", "Helvetica Neue", Arial, sans-serif;
+	/* Typography — one family, all weights */
+	--font-main: 'EB Garamond', Georgia, serif;
 
 	/* Spacing */
 	--space-xs: 0.5rem;
 	--space-sm: 1rem;
-	--space-md: 1.5rem;
-	--space-lg: 2.5rem;
-	--space-xl: 4rem;
+	--space-md: 1.625rem;
+	--space-lg: 2.75rem;
+	--space-xl: 4.5rem;
 
 	/* Layout */
-	--content-width: 42rem;
-	--content-width-wide: 60rem;
+	--content-width: 50rem;
+	--content-width-wide: 70rem;
+	--prose-width: 40rem;
 
-	/* Transitions */
-	--transition-fast: 150ms ease;
-	--transition-normal: 250ms ease;
+	/* Transitions — gentle, unhurried */
+	--transition-fast: 200ms ease;
+	--transition-normal: 400ms ease;
 
-	/* Light mode colors */
-	--color-bg: #faf7f2;
-	--color-bg-secondary: #f0ebe3;
-	--color-text: #4a4643;
-	--color-text-muted: #6b6560;
-	--color-text-subtle: #9a9590;
-	--color-accent: #c4786a;
-	--color-accent-hover: #a85f52;
-	--color-border: #f0ebe3;
+	/* Light mode — warm cream and old ink */
+	--color-bg: #f3ede0;
+	--color-bg-secondary: #ece6d3;
+	--color-text: #241c13;
+	--color-text-muted: #5d5040;
+	--color-text-subtle: #a09070;
+	--color-accent: #6a7c59;
+	--color-accent-hover: #536246;
+	--color-border: #d2c9b5;
 }
 
-/* Dark mode colors */
+/* Dark mode */
 .theme-dark {
-	--color-bg: #2a2522;
-	--color-bg-secondary: #352f2b;
-	--color-text: #e8e2da;
-	--color-text-muted: #b8b0a6;
-	--color-text-subtle: #8a8279;
-	--color-accent: #d4897b;
-	--color-accent-hover: #e09a8d;
-	--color-border: #3d3632;
+	--color-bg: #1a1710;
+	--color-bg-secondary: #211e14;
+	--color-text: #f2e8d5;
+	--color-text-muted: #b0a588;
+	--color-text-subtle: #746a56;
+	--color-accent: #8fa07a;
+	--color-accent-hover: #a0b48a;
+	--color-border: #2d2a1e;
 }
 
-/* Auto mode - follows system preference */
 @media (prefers-color-scheme: dark) {
 	.theme-auto {
-		--color-bg: #2a2522;
-		--color-bg-secondary: #352f2b;
-		--color-text: #e8e2da;
-		--color-text-muted: #b8b0a6;
-		--color-text-subtle: #8a8279;
-		--color-accent: #d4897b;
-		--color-accent-hover: #e09a8d;
-		--color-border: #3d3632;
+		--color-bg: #1a1710;
+		--color-bg-secondary: #211e14;
+		--color-text: #f2e8d5;
+		--color-text-muted: #b0a588;
+		--color-text-subtle: #746a56;
+		--color-accent: #8fa07a;
+		--color-accent-hover: #a0b48a;
+		--color-border: #2d2a1e;
 	}
 }
 
@@ -65,16 +67,15 @@
 	padding: 0;
 }
 
-/* Base */
 html {
-	font-size: 16px;
+	font-size: 19px;
 	scroll-behavior: smooth;
 }
 
 body {
-	font-family: var(--font-sans);
+	font-family: var(--font-main);
 	font-size: 1rem;
-	line-height: 1.7;
+	line-height: 1.85;
 	color: var(--color-text);
 	background-color: var(--color-bg);
 	min-height: 100vh;
@@ -82,31 +83,39 @@ body {
 	flex-direction: column;
 }
 
+/* Faint paper grain — almost subliminal */
+body::after {
+	content: '';
+	position: fixed;
+	inset: 0;
+	background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='250' height='250'%3E%3Cfilter id='g'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.65' numOctaves='4' stitchTiles='stitch'/%3E%3C/filter%3E%3Crect width='250' height='250' filter='url(%23g)' opacity='0.45'/%3E%3C/svg%3E");
+	opacity: 0.018;
+	pointer-events: none;
+	z-index: 9999;
+}
+
 /* Typography */
-h1,
-h2,
-h3,
-h4,
-h5,
-h6 {
-	font-family: var(--font-serif);
+h1, h2, h3, h4, h5, h6 {
+	font-family: var(--font-main);
 	font-weight: 400;
-	line-height: 1.3;
+	line-height: 1.25;
 	color: var(--color-text);
 }
 
 h1 {
-	font-size: 2.5rem;
+	font-size: 2.4rem;
+	font-style: italic;
+	letter-spacing: 0.01em;
 	margin-bottom: var(--space-md);
 }
 
 h2 {
-	font-size: 1.75rem;
+	font-size: 1.7rem;
 	margin-bottom: var(--space-sm);
 }
 
 h3 {
-	font-size: 1.35rem;
+	font-size: 1.3rem;
 	margin-bottom: var(--space-sm);
 }
 
@@ -130,12 +139,12 @@ img {
 	display: block;
 }
 
-/* Layout Components */
+/* Layout */
 .container {
 	width: 100%;
 	max-width: var(--content-width);
 	margin: 0 auto;
-	padding: 0 var(--space-md);
+	padding: 0 var(--space-lg);
 }
 
 .container--wide {
@@ -144,43 +153,61 @@ img {
 
 /* Header */
 .site-header {
-	padding: var(--space-lg) 0;
-	text-align: center;
+	padding: var(--space-md) 0;
 	border-bottom: 1px solid var(--color-border);
 }
 
+.header-inner {
+	display: flex;
+	align-items: baseline;
+	justify-content: space-between;
+	gap: var(--space-md);
+}
+
 .site-title {
-	font-family: var(--font-serif);
+	font-family: var(--font-main);
 	font-size: 1.5rem;
 	font-weight: 400;
-	margin-bottom: var(--space-xs);
+	font-style: italic;
+	letter-spacing: 0.015em;
+	flex-shrink: 0;
 }
 
 .site-title a {
 	color: var(--color-text);
+	transition: color var(--transition-fast);
 }
 
 .site-title a:hover {
 	color: var(--color-accent);
 }
 
-/* Navigation */
-.site-nav {
-	margin-top: var(--space-sm);
-}
-
+/* Navigation — lowercase, personal, with dot separators */
 .site-nav ul {
 	list-style: none;
 	display: flex;
-	justify-content: center;
-	gap: var(--space-md);
+	align-items: center;
+}
+
+.site-nav li {
+	display: flex;
+	align-items: center;
+}
+
+.site-nav li + li::before {
+	content: '·';
+	color: var(--color-text-subtle);
+	margin: 0 0.65rem;
+	font-size: 1rem;
 }
 
 .site-nav a {
-	color: var(--color-text-muted);
+	font-family: var(--font-main);
 	font-size: 0.9rem;
-	letter-spacing: 0.05em;
-	text-transform: uppercase;
+	font-weight: 400;
+	letter-spacing: 0.02em;
+	color: var(--color-text-muted);
+	transition: color var(--transition-fast);
 }
 
 .site-nav a:hover,
@@ -197,14 +224,20 @@ main {
 /* Footer */
 .site-footer {
 	padding: var(--space-lg) 0;
-	text-align: center;
 	border-top: 1px solid var(--color-border);
 	color: var(--color-text-subtle);
-	font-size: 0.875rem;
+	font-size: 0.88rem;
+}
+
+.footer-inner {
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	gap: var(--space-md);
 }
 
 .site-footer p {
-	margin-bottom: var(--space-sm);
+	margin-bottom: 0;
 }
 
 /* Theme Toggle */
@@ -213,17 +246,18 @@ main {
 	gap: 2px;
 	padding: 2px;
 	background: var(--color-bg-secondary);
-	border-radius: 4px;
-	font-size: 0.75rem;
+	border-radius: 3px;
 }
 
 .theme-toggle button {
-	padding: 0.25rem 0.5rem;
+	padding: 0.2rem 0.55rem;
 	border: none;
 	background: transparent;
 	color: var(--color-text-subtle);
 	cursor: pointer;
-	border-radius: 3px;
+	border-radius: 2px;
+	font-size: 0.78rem;
+	font-family: var(--font-main);
 	transition: all var(--transition-fast);
 }
 
@@ -238,87 +272,98 @@ main {
 
 /* Page Intro */
 .page-intro {
-	text-align: center;
 	margin-bottom: var(--space-xl);
 }
 
 .page-intro h1 {
+	font-size: 2.75rem;
+	font-weight: 400;
+	font-style: italic;
+	letter-spacing: 0.01em;
 	margin-bottom: var(--space-sm);
 }
 
 .page-intro .lead {
-	font-size: 1.125rem;
+	font-size: 1.05rem;
+	line-height: 1.85;
 	color: var(--color-text-muted);
-	max-width: 32rem;
-	margin: 0 auto;
+	max-width: var(--prose-width);
 }
 
-/* Project List */
+/* Project List — journal entries, not portfolio cards */
 .project-list {
 	list-style: none;
 	display: flex;
 	flex-direction: column;
-	gap: var(--space-lg);
 }
 
 .project-card {
-	padding: var(--space-md);
-	background: var(--color-bg-secondary);
-	border-radius: 4px;
-	transition: transform var(--transition-normal);
+	padding: var(--space-lg) 0;
+	border-top: 1px solid var(--color-border);
 }
 
-.project-card:hover {
-	transform: translateY(-2px);
+.project-card:last-child {
+	border-bottom: 1px solid var(--color-border);
 }
 
 .project-card h2 {
-	font-size: 1.35rem;
+	font-size: 1.6rem;
+	font-weight: 400;
+	font-style: italic;
+	letter-spacing: 0.01em;
 	margin-bottom: var(--space-xs);
 }
 
 .project-card h2 a {
 	color: var(--color-text);
+	transition: color var(--transition-fast);
 }
 
 .project-card h2 a:hover {
 	color: var(--color-accent);
 }
 
+/* Date in genuine small-caps — EB Garamond's small-caps are beautiful */
 .project-card .date {
-	font-size: 0.875rem;
+	font-size: 0.82rem;
+	font-variant: small-caps;
+	font-variant-numeric: oldstyle-nums;
+	letter-spacing: 0.06em;
 	color: var(--color-text-subtle);
 	margin-bottom: var(--space-xs);
 }
 
 .project-card .description {
 	color: var(--color-text-muted);
+	font-size: 1rem;
+	line-height: 1.8;
 }
 
 .project-card-image {
 	display: block;
-	margin-bottom: var(--space-sm);
-	border-radius: 4px;
+	margin-bottom: var(--space-md);
 	overflow: hidden;
 }
 
 .project-card-image img {
 	width: 100%;
-	transition: transform var(--transition-normal);
+	transition: opacity var(--transition-normal);
 }
 
-.project-card-image:hover img {
-	transform: scale(1.02);
+.project-card:hover .project-card-image img {
+	opacity: 0.92;
 }
 
 /* Project Detail */
 .project-header {
-	text-align: center;
 	margin-bottom: var(--space-lg);
 }
 
 .project-header .date {
-	font-size: 0.9rem;
+	font-size: 0.82rem;
+	font-variant: small-caps;
+	font-variant-numeric: oldstyle-nums;
+	letter-spacing: 0.06em;
 	color: var(--color-text-subtle);
 	margin-bottom: var(--space-sm);
 }
@@ -329,19 +374,23 @@ main {
 
 .project-image img {
 	width: 100%;
-	border-radius: 4px;
 }
 
 .project-content {
-	line-height: 1.8;
+	max-width: var(--prose-width);
+	line-height: 1.9;
 }
 
 .project-content h2 {
 	margin-top: var(--space-lg);
+	font-size: 1.6rem;
+	font-style: italic;
+	font-weight: 400;
 }
 
 .project-content h3 {
 	margin-top: var(--space-md);
+	font-size: 1.25rem;
 }
 
 .project-content ul,
@@ -356,40 +405,51 @@ main {
 
 .project-content img {
 	margin: var(--space-md) 0;
-	border-radius: 4px;
 }
 
 /* About Page */
 .about-content {
-	line-height: 1.8;
+	max-width: var(--prose-width);
+	line-height: 1.9;
 }
 
 .about-content h2 {
 	margin-top: var(--space-lg);
 	margin-bottom: var(--space-sm);
+	font-size: 1.6rem;
+	font-style: italic;
+	font-weight: 400;
 }
 
 .about-content h3 {
-	margin-top: var(--space-lg);
+	margin-top: var(--space-md);
 	margin-bottom: var(--space-sm);
+	font-size: 1.2rem;
+}
+
+.about-content img {
+	margin: var(--space-lg) 0;
+	width: 100%;
 }
 
 .contact-info {
 	margin-top: var(--space-lg);
-	padding: var(--space-md);
+	padding: var(--space-md) var(--space-lg);
+	border-left: 1px solid var(--color-accent);
 	background: var(--color-bg-secondary);
-	border-radius: 4px;
 }
 
 .contact-info h2 {
 	margin-top: 0;
+	font-size: 1.3rem;
+	font-style: italic;
 }
 
 /* Empty State */
 .empty-state {
-	text-align: center;
 	padding: var(--space-xl) 0;
 	color: var(--color-text-subtle);
+	font-style: italic;
 }
 
 /* Utilities */
@@ -408,22 +468,30 @@ main {
 /* Responsive */
 @media (max-width: 640px) {
 	html {
-		font-size: 15px;
+		font-size: 17px;
 	}
 
-	h1 {
-		font-size: 2rem;
+	.container {
+		padding: 0 var(--space-md);
 	}
 
-	.site-header {
-		padding: var(--space-md) 0;
+	.header-inner {
+		flex-direction: column;
+		align-items: flex-start;
+		gap: var(--space-xs);
 	}
 
-	.site-nav ul {
+	.footer-inner {
+		flex-direction: column;
+		align-items: flex-start;
 		gap: var(--space-sm);
 	}
 
 	main {
 		padding: var(--space-lg) 0;
+	}
+
+	.page-intro h1 {
+		font-size: 2rem;
 	}
 }
