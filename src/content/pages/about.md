@@ -21,7 +21,7 @@ Jag har även en idé om att prova digital rådgivning till ett ännu mer rabatt
 
 ### Traditionellt måleri och restaurering
 
-- Restaurering av äldre ytskikt, t.ex. fläckar efter vattenskador eller skador på träådringar och liknande
+- Restaurering av äldre ytskikt, t.ex. fläckar efter vattenskador eller skador på träådringar m.m.
 - Olika typer av limfärg
 - Äggoljetempera och emulsionsfärg
 - Schablonmålning dekormåleri och stänkmålning
