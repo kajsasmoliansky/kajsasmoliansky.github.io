@@ -8,7 +8,7 @@ export async function GET(context: APIContext) {
 
 	const feed = {
 		version: "https://jsonfeed.org/version/1.1",
-		title: "Kajsa Smoliansky",
+		title: "Kajsa Smoliansky Kulturmåleri",
 		description:
 			"Projekt och uppdateringar från Kajsa Smolianskys arbete med traditionellt måleri och byggnadsvård",
 		home_page_url: site,
