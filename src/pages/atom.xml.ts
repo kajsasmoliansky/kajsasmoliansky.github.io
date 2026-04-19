@@ -27,8 +27,8 @@ ${sortedProjects
 
 			return `  <entry>
     <title>${escapeXml(project.data.title)}</title>
-    <link href="${site}projects/${project.slug}/" rel="alternate" type="text/html"/>
-    <id>${site}projects/${project.slug}/</id>
+    <link href="${site}projects/${project.id}/" rel="alternate" type="text/html"/>
+    <id>${site}projects/${project.id}/</id>
     <published>${publishedDate.toISOString()}</published>
     <updated>${publishedDate.toISOString()}</updated>
     ${project.data.description ? `<summary>${escapeXml(project.data.description)}</summary>` : ""}

@@ -16,7 +16,7 @@ export async function GET(context: APIContext) {
 			title: project.data.title,
 			description: project.data.description,
 			pubDate: getProjectPublishedDate(project),
-			link: `/projects/${project.slug}/`,
+			link: `/projects/${project.id}/`,
 		})),
 	});
 }

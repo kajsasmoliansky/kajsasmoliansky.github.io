@@ -17,8 +17,8 @@ export async function GET(context: APIContext) {
 		language: SITE.lang,
 		authors: [{ name: SITE.authorName }],
 		items: sortedProjects.map((project) => ({
-			id: `${site}projects/${project.slug}/`,
-			url: `${site}projects/${project.slug}/`,
+			id: `${site}projects/${project.id}/`,
+			url: `${site}projects/${project.id}/`,
 			title: project.data.title,
 			summary: project.data.description,
 			date_published: getProjectPublishedDate(project)?.toISOString(),

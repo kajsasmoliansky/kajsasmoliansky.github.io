@@ -3,25 +3,25 @@ title: Rödfärgsmålning av lusthus från 1816 i Skårtebo naturreservat
 description: Fasadmåleri med slamfärg
 order_by: 40
 date: "2025-09-10"
-image: ../../assets/skarteboentre.jpg
+image: ./skarteboentre.jpg
 ---
 
 ## Ett otroligt mysigt litet jobb i vacker miljö
 
 Detta gjorde jag tillsammans med Lisbeth Frost. Vi borstade de tidigare slamfärgsmålade väggarna och tvättade den linoljefärgsmålade entrén samt fönsterkarmar. Sedan målade vi allt utbytt, omålat virke, och sedan resten av fasaden.
 
-![another image](../../assets/skartebo1.jpeg)
+![another image](./skartebo1.jpeg)
 
-![another image 2](../../assets/skartebotavla.jpeg)
+![another image 2](./skartebotavla.jpeg)
 
-![another image 3](../../assets/skartebo2.jpeg)
+![another image 3](./skartebo2.jpeg)
 
-![another image 4](../../assets/skartebostallning.jpeg)
+![another image 4](./skartebostallning.jpeg)
 
-![another image 5](../../assets/skartebo3.jpeg)
+![another image 5](./skartebo3.jpeg)
 
-![another image 6](../../assets/skartebo4.jpeg)
+![another image 6](./skartebo4.jpeg)
 
-![another image 7](../../assets/skartebo5.jpeg)
+![another image 7](./skartebo5.jpeg)
 
-![another image 8](../../assets/skartebo6.jpeg)
+![another image 8](./skartebo6.jpeg)

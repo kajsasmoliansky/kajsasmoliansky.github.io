@@ -43,7 +43,7 @@ src/
 
 ### New Project Post
 
-Create a new `.md` file in `src/content/projects/` with frontmatter:
+Create a new project folder in `src/content/projects/` with a markdown file inside it, named `project.md`. Store project-only images in the same folder and reference them with relative paths like `./image.jpg`.
 
 ```yaml
 ---
@@ -51,6 +51,7 @@ title: "Project Title"
 description: "Brief description"
 order_by: 100
 date: "2024-01-15"
+image: ./cover.jpg
 ---
 ```
 

@@ -21,13 +21,13 @@ const sortedProjects = sortProjects(projects);
         return (
           <li class="project-card">
             {project.data.image && (
-              <a href={`/projects/${project.slug}/`} class="project-card-image">
+              <a href={`/projects/${project.id}/`} class="project-card-image">
                 <Image src={project.data.image} alt={project.data.title} width={600} />
               </a>
             )}
             {formattedDate && <p class="date">{formattedDate}</p>}
             <h2>
-              <a href={`/projects/${project.slug}/`}>
+              <a href={`/projects/${project.id}/`}>
                 {project.data.title}
               </a>
             </h2>
