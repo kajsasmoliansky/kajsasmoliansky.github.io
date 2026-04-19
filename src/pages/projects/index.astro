@@ -2,9 +2,10 @@
 import { Image } from 'astro:assets';
 import BaseLayout from '../../layouts/BaseLayout.astro';
 import { getCollection } from 'astro:content';
+import { getProjectDisplayDate, sortProjects } from '../../utils/projects';
 
 const projects = await getCollection('projects');
-const sortedProjects = projects.sort((a, b) => b.data.date.getTime() - a.data.date.getTime());
+const sortedProjects = sortProjects(projects);
 ---
 
 <BaseLayout title="Projekt" description="Projekt och uppdateringar från Kajsa Smolianskys arbete med byggnadsrestaurering">
@@ -16,11 +17,7 @@ const sortedProjects = projects.sort((a, b) => b.data.date.getTime() - a.data.da
   {sortedProjects.length > 0 ? (
     <ul class="project-list">
       {sortedProjects.map((project) => {
-        const formattedDate = project.data.date.toLocaleDateString('sv-SE', {
-          year: 'numeric',
-          month: 'long',
-          day: 'numeric'
-        });
+        const formattedDate = getProjectDisplayDate(project);
         return (
           <li class="project-card">
             {project.data.image && (
@@ -28,7 +25,7 @@ const sortedProjects = projects.sort((a, b) => b.data.date.getTime() - a.data.da
                 <Image src={project.data.image} alt={project.data.title} width={600} />
               </a>
             )}
-            <p class="date">{formattedDate}</p>
+            {formattedDate && <p class="date">{formattedDate}</p>}
             <h2>
               <a href={`/projects/${project.slug}/`}>
                 {project.data.title}

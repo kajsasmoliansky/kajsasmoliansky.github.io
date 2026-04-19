@@ -1,7 +1,8 @@
 ---
 title: Rökmarmorering
 description: Ett eget litet projekt som jag lekte med hemma
-date: 2025-04-29
+order_by: 30
+date: "2025-04-29"
 image: ../../assets/dorrskap.jpeg
 ---
 

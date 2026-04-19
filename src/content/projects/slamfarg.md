@@ -1,7 +1,8 @@
 ---
 title: Rödfärgsmålning av lusthus från 1816 i Skårtebo naturreservat
 description: Fasadmåleri med slamfärg
-date: 2025-09-10
+order_by: 40
+date: "2025-09-10"
 image: ../../assets/skarteboentre.jpg
 ---
 

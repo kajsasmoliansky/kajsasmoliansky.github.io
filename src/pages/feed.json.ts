@@ -1,10 +1,11 @@
 import { getCollection } from "astro:content";
 import type { APIContext } from "astro";
 import { SITE } from "../consts";
+import { getProjectPublishedDate, sortProjects } from "../utils/projects";
 
 export async function GET(context: APIContext) {
 	const projects = await getCollection("projects");
-	const sortedProjects = projects.sort((a, b) => b.data.date.getTime() - a.data.date.getTime());
+	const sortedProjects = sortProjects(projects);
 	const site = context.site!.toString();
 
 	const feed = {
@@ -20,7 +21,7 @@ export async function GET(context: APIContext) {
 			url: `${site}projects/${project.slug}/`,
 			title: project.data.title,
 			summary: project.data.description,
-			date_published: project.data.date.toISOString(),
+			date_published: getProjectPublishedDate(project)?.toISOString(),
 		})),
 	};
 

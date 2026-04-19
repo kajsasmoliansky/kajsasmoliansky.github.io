@@ -49,7 +49,8 @@ Create a new `.md` file in `src/content/projects/` with frontmatter:
 ---
 title: "Project Title"
 description: "Brief description"
-date: 2024-01-15
+order_by: 100
+date: "2024-01-15"
 ---
 ```
 

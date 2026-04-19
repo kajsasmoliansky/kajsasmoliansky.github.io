@@ -2,6 +2,7 @@
 import { Image } from 'astro:assets';
 import BaseLayout from '../layouts/BaseLayout.astro';
 import { getCollection, getEntry, render } from 'astro:content';
+import { getProjectDisplayDate, sortProjects } from '../utils/projects';
 
 const homeContent = await getEntry('pages', 'home');
 if (!homeContent){
@@ -10,9 +11,7 @@ if (!homeContent){
 const { Content } = await render(homeContent);
 
 const projects = await getCollection('projects');
-const latestProjects = projects
-  .sort((a, b) => b.data.date.getTime() - a.data.date.getTime())
-  .slice(0, 3);
+const latestProjects = sortProjects(projects).slice(0, 3);
 ---
 
 <BaseLayout title="Hem">
@@ -28,11 +27,7 @@ const latestProjects = projects
       <h2 class="text-center mb-lg">Senaste projekt</h2>
       <ul class="project-list">
         {latestProjects.map((project) => {
-          const formattedDate = project.data.date.toLocaleDateString('sv-SE', {
-            year: 'numeric',
-            month: 'long',
-            day: 'numeric'
-          });
+          const formattedDate = getProjectDisplayDate(project);
           return (
             <li class="project-card">
               {project.data.image && (
@@ -40,7 +35,7 @@ const latestProjects = projects
                   <Image src={project.data.image} alt={project.data.title} width={600} />
                 </a>
               )}
-              <p class="date">{formattedDate}</p>
+              {formattedDate && <p class="date">{formattedDate}</p>}
               <h2>
                 <a href={`/projects/${project.slug}/`}>
                   {project.data.title}
