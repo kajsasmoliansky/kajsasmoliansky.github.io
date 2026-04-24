@@ -5,7 +5,7 @@ description: Om Kajsa Smoliansky Kulturmåleri
 
 ## Om mig
 
-Efter ett treårigt kandidatprogram på kulturvårdsinstitutionen med inriktning mot traditionella hantverksmetoder (bygghantverksprogrammet) läste jag Kulturmålare - traditionellt byggnadsmåleri. Nu utför jag hantverksjobb och erbjuder rådgivning, främst i Mariestad med omnejd men reser gärna. Parallelt med hantverksuppdragen arbetar jag just nu med ett projekt där jag utforskar marmorering och olika hemgjorda färger, ett projekt som ska leda till att jag tar fram nytt kursmaterial till nybörjarkurser.
+Jag utför hantverksjobb och erbjuder rådgivning, främst i Mariestad med omnejd men reser gärna. Parallelt med hantverksuppdragen arbetar jag just nu med ett projekt där jag utforskar marmorering och olika hemgjorda färger, som ska leda till att jag tar fram nytt kursmaterial till nybörjarkurser. Min kulturvårdsutbildning består av ett treårigt kandidatprogram på kulturvårdsinstitutionen med inriktning mot traditionella hantverksmetoder (bygghantverksprogrammet) och därefter Kulturmålare - traditionellt byggnadsmåleri. 
 
 ![bild på Kajsa som målar äggoljetempera](../../assets/kajsaisnickeriet.jpg)
 
@@ -21,10 +21,10 @@ Jag har även en idé om att prova digital rådgivning till ett ännu mer rabatt
 
 ### Traditionellt måleri och restaurering
 
-- Restaurering av äldre ytskikt, t.ex. fläckar efter vattenskador eller skador på träådringar m.m.
+- Restaurering av äldre ytskikt, t.ex. fläckar efter vattenskador eller skador på träådringar, pappersmakulering av skador m.m.
 - Olika typer av limfärg
 - Äggoljetempera och emulsionsfärg
-- Schablonmålning dekormåleri och stänkmålning
+- Schablonmålning, dekormåleri och stänkmålning
 - Pappspänning
 - Lerklining
 - Putslagningar
