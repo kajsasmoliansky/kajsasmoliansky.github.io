@@ -5,35 +5,34 @@ description: Om Kajsa Smoliansky Kulturmåleri
 
 ## Om mig
 
-Jag utför hantverksjobb och erbjuder rådgivning, främst i Mariestad med omnejd men reser gärna. Parallelt med hantverksuppdragen arbetar jag just nu med ett projekt där jag utforskar marmorering och olika hemgjorda färger, som ska leda till att jag tar fram nytt kursmaterial till nybörjarkurser. Min kulturvårdsutbildning består av ett treårigt kandidatprogram på kulturvårdsinstitutionen med inriktning mot traditionella hantverksmetoder (bygghantverksprogrammet) och därefter Kulturmålare - traditionellt byggnadsmåleri. 
+Jag utför hantverksjobb och erbjuder rådgivning, främst i Mariestad med omnejd och södra Stockholm, men reser gärna. Parallelt med hantverksuppdragen arbetar jag just nu med ett projekt där jag utforskar marmorering och olika hemgjorda färger, som ska leda till att jag tar fram nytt kursmaterial till nybörjarkurser. Min kulturvårdsutbildning består av Bygghantverksprogrammet (ett treårigt kandidatprogram på Kulturvårdsinstitutionen vid Göteborgs Universitet med inriktning mot traditionella hantverksmetoder) och därefter Kulturmålare - traditionellt byggnadsmåleri på Dacapo Mariestad. 
 
 ![bild på Kajsa som målar äggoljetempera](../../assets/kajsaisnickeriet.jpg)
 
 ## Tjänster
 
-Sedan examen har jag främst arbetat med pappspänning, lumppapp, limfärg, äggoljetempera, interiört linoljefärgsmåleri, lerklining, rödfärgsmålning, rådgivning och restaurering av äldre ytskikt, men mina intressen är många. Kontakta mig gärna angående arbeten som exempelvis:
+Sedan examen har jag främst arbetat med pappspänning, lumppapp, limfärg, äggoljetempera, interiört linoljefärgsmåleri, lerklining, makulering av lerklining och vävspänning, rödfärgsmålning, rådgivning och restaurering av äldre ytskikt som t.ex. trasig pappspänning, men mina intressen är många. Kontakta mig gärna angående arbeten som exempelvis:
 
 ### Teknisk rådgivning på plats eller digitalt
 
 Rådgivning kring både ytskikt och andra aspekter av äldre hus, om det sträcker sig utanför min kompetens har jag kontakt med många olika restaureringshantverkare som tillsammans har ett otroligt brett spann av kompetenser. Jag älskar att diskutera projekt och ge rådgivning utifrån min kompetens, det är något jag verkligen önskar ägna mig mer åt och utvecklas i så under 2026 kommer jag att erbjuda rabatt på den typen av tjänst.
 
-Jag har även en idé om att prova digital rådgivning till ett ännu mer rabatterat pris så tveka inte att höra av dig även om du bor långt från Mariestad.
+Jag har även en önskan om att prova digital rådgivning till ett ännu mer rabatterat pris så tveka inte att höra av dig även om du bor långt från Mariestad. Det är så kul att höra om era fina hus och spännande projekt!
 
 ### Traditionellt måleri och restaurering
 
-- Restaurering av äldre ytskikt, t.ex. fläckar efter vattenskador eller skador på träådringar, pappersmakulering av skador m.m.
-- Olika typer av limfärg
+- Restaurering av äldre ytskikt, t.ex. fläckar efter vattenskador eller skador på dekorationsmåleri, pappersmakulering av skador, hängande eller skadad papp- eller vävspänning m.m.
+- Marmorering, schablonmålning, dekormåleri och stänkmålning
 - Äggoljetempera och emulsionsfärg
-- Schablonmålning, dekormåleri och stänkmålning
 - Pappspänning
+- Olika typer av limfärg
+- Linoljefärg interiört och exteriört
 - Lerklining
 - Putslagningar
 - Tapetsering med lumppapp eller papperstapet
 - Oljeförgyllning
-- Marmoreringar och träådringar
 - Ommålning av möbler
-- Slamfärg
-- Linoljefärgsmåleri interiört och exteriört
+- Fasadmåleri, slamfärg eller linoljefärg
 - Fönsterrenovering
 
 ### Rådgivning och stöd i eget projekt
@@ -57,7 +56,7 @@ Jag erbjuder kurser både för grupper och för dig som önskar hjälp med ditt 
 
 ## Kontakt
 
-Jag finns i Mariestad med omnejd. För förfrågningar och samarbeten, kontakta mig via e-post eller telefon.
+Jag finns i Mariestad med omnejd och ibland i Stockholm. För förfrågningar och samarbeten, kontakta mig via e-post eller telefon.
 
 **E-post:** [kajsa.smoliansky@gmail.com](mailto:kajsa.smoliansky@gmail.com)
 
