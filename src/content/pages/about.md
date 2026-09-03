@@ -3,6 +3,16 @@ title: Om
 description: Om Kajsa Smoliansky Kulturmåleri
 ---
 
+## Kontakt
+
+Jag arbetar främst i Mariestad med omnejd, ibland i Stockholm och övriga Sverige. För förfrågningar och samarbeten, kontakta mig via e-post eller telefon.
+
+**E-post:** [kajsa.smoliansky@gmail.com](mailto:kajsa.smoliansky@gmail.com)
+
+**Telefon:** +46 76-778 37 07
+
+**Instagram:** [@smoliansky](https://www.instagram.com/smoliansky/)
+
 ## Om mig
 
 Jag utför hantverksjobb och erbjuder rådgivning, främst i Mariestad med omnejd och södra Stockholm, men reser gärna. Parallelt med hantverksuppdragen arbetar jag just nu med ett projekt där jag utforskar marmorering och olika hemgjorda färger, som ska leda till att jag tar fram nytt kursmaterial till nybörjarkurser. Min kulturvårdsutbildning består av Bygghantverksprogrammet (ett treårigt kandidatprogram på Kulturvårdsinstitutionen vid Göteborgs Universitet med inriktning mot traditionella hantverksmetoder) och därefter Kulturmålare - traditionellt byggnadsmåleri på Dacapo Mariestad. 
@@ -53,13 +63,3 @@ Jag kan även hjälpa dig att praktiskt komma igång med ditt egna projekt, plan
 ### Kurser och workshops
 
 Jag erbjuder kurser både för grupper och för dig som önskar hjälp med ditt hemmaprojekt men vill utföra merparten av arbetet själv. Det kan till exempel handla om att göra egen äggoljetempera, limfärg och/eller schabloner eller kanske en kurs i att pappspänna. Jag arbetar även på att ta fram kursmaterial till kortkurser i marmorering.
-
-## Kontakt
-
-Jag finns i Mariestad med omnejd och ibland i Stockholm. För förfrågningar och samarbeten, kontakta mig via e-post eller telefon.
-
-**E-post:** [kajsa.smoliansky@gmail.com](mailto:kajsa.smoliansky@gmail.com)
-
-**Telefon:** +46 76-778 37 07
-
-**Instagram:** [@smoliansky](https://www.instagram.com/smoliansky/)
